@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="42d8474e-d628-4ded-8ca6-0f5567d244e0" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="ProjectId" id="1iV0CqYVKe5ykmHGKFfdsKbGTP8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/models" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\phpoo\models" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="42d8474e-d628-4ded-8ca6-0f5567d244e0" name="Default Changelist" comment="" />
+      <created>1601977328412</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601977328412</updated>
+      <workItem from="1601977330259" duration="16988000" />
+      <workItem from="1602058152617" duration="603000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="626" y="216" key="#com.intellij.ide.util.MemberChooser" timestamp="1601997597797">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="626" y="216" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1601997597797" />
+    <state x="807" y="336" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1601977951483">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="807" y="336" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601977951483" />
+    <state x="739" y="274" key="FileChooserDialogImpl" timestamp="1601980132423">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601980132423" />
+    <state x="786" y="242" key="NewPhpClassDialog" timestamp="1601995574129">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="786" y="242" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601995574129" />
+    <state x="793" y="442" key="NewPhpFileDialog" timestamp="1601978721825">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="793" y="442" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601978721825" />
+    <state x="460" y="164" key="SettingsEditor" timestamp="1601990928460">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="460" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1601990928460" />
+    <state x="828" y="305" key="refactoring.ChangeSignatureDialog" timestamp="1601989604319">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="828" y="305" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601989604319" />
+    <state x="616" y="242" key="run.anything.popup" timestamp="1601980475713">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="242" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601980475713" />
+  </component>
+</project>
