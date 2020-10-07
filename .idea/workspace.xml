@@ -19,7 +19,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/models" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PHP/COOKIE" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -37,7 +37,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601977328412</updated>
       <workItem from="1601977330259" duration="16988000" />
-      <workItem from="1602058152617" duration="603000" />
+      <workItem from="1602058152617" duration="12766000" />
     </task>
     <servers />
   </component>
@@ -53,10 +53,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="807" y="336" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601977951483" />
-    <state x="739" y="274" key="FileChooserDialogImpl" timestamp="1601980132423">
+    <state x="739" y="274" key="FileChooserDialogImpl" timestamp="1602077487074">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="739" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601980132423" />
+    <state x="739" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602077487074" />
     <state x="786" y="242" key="NewPhpClassDialog" timestamp="1601995574129">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

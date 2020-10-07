@@ -140,4 +140,4 @@ class Eleve
         $this->nom= $sexe;
     }
 -*/
-}
+}//Fin de la classe Eleve

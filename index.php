@@ -57,6 +57,7 @@ echo'<h1>' .$ecole->getNom() . '</h1>';
 /** Grâce au setter, je fournis à mon objet un moyen de modifier la valeur d'une propriété.*/
 
 $ecole->setNom('WF3 Paris');
+
 echo'<h1>' .$ecole->getNom() . '</h1>';
 
 
@@ -75,4 +76,84 @@ echo '</pre>';
 /** Afficher le nom du professeur dans une balise h1*/
 
 echo'<h1>' .$classe->getprofesseurP() . '</h1>';
+
+/**___________________________________________________________________
+ * Création d'une instance de la class Eleve.
+Remarque, notre class Eleve à été importée la-haut
+ */
+
+$eleve1 = new Eleve('Zaklin','POCANDI', 49, 'femme');
+$eleve2 = new Eleve('Koumba','KONARE', 28, 'femme');
+$eleve3 = new Eleve('Valérie','DIAS', 48, 'femme');
+$eleve4 = new Eleve('Sandra','JACQUES', 48, 'femme');
+
+/**___________________________________________________________________
+ * Création d'une autre instance  de la class Classe.
+Remarque, notre class Classe à été importée la-haut
+ */
+
+$front = new Classe('Front','30','Fadhi NASRI');
+$back = new Classe('Back','30','Mathieu QUITTARD');
+$full = new Classe('Full','30','Hugo LIEGEARD');
+
+
+# Problématique
+# Comment affecter chaque élève dans une classe?
+ # ->  il faut créer une variable eleves dans notre  fichier class Classe
+
+$front->addEleve($eleve2);
+$front->addEleve($eleve4);
+$back->addEleve($eleve1);
+$full->addEleve($eleve3);
+
+echo '<pre>';
+print_r($front);
+print_r($back);
+print_r($full);
+echo '</pre>';
+
+# Comment affecter chaque classe dans une école?
+# ->  il faut créer une variable classe dans notre  fichier class Ecole
+$ecole->addClasse($full);
+$ecole->addClasse($back);
+$ecole->addClasse($front);
+
+echo '<pre>';
+print_r($ecole);
+print_r($ecole2);
+echo '</pre>';
+
+# Consignes:
+# En partant de l'Objet $ecole; affichez la liste ol, ul, li, des classes et pour chaques  classes, les étudiants
+
+#1. récuperer et afficher la liste des classes (=  tableau +boucle (while, ou foreach)
+
+$classes =$ecole->getClasses();
+
+//print_r($classes);
+
+#on va parcourir nos classes
+echo '<ol>';
+
+    foreach ($classes as $classe){
+        #Afficher le nom de la classe
+        echo '<li>';
+            echo $classe->getNom(). '<br>';
+        echo '</li>';
+
+        #2. récuperer et afficher la liste des élèves
+
+        $eleves = $classe->getEleves();
+        echo '<ul>';
+
+        foreach ($eleves as $eleve) {
+
+            echo '<li>';
+            echo $eleve->getPrenom() . ' ' . $eleve->getNom();
+            echo '</li>';
+        } //endforeach eleves
+        echo '</ul>';
+    } //endforeach classes
+
+echo '</ol>';
 

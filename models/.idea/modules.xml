@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../PHP/COOKIE/.idea/COOKIE.iml" filepath="$PROJECT_DIR$/../../PHP/COOKIE/.idea/COOKIE.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../PHP/EXERCICES TP1 2 3/.idea/EXERCICES TP1 2 3.iml" filepath="$PROJECT_DIR$/../../PHP/EXERCICES TP1 2 3/.idea/EXERCICES TP1 2 3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../PHP/GET page1_page2 ref/.idea/GET page1_page2 ref.iml" filepath="$PROJECT_DIR$/../../PHP/GET page1_page2 ref/.idea/GET page1_page2 ref.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../PHP/boucle_image/.idea/boucle_image.iml" filepath="$PROJECT_DIR$/../../PHP/boucle_image/.idea/boucle_image.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../PHP/dialogue/.idea/dialogue.iml" filepath="$PROJECT_DIR$/../../PHP/dialogue/.idea/dialogue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../PHP/include/.idea/include.iml" filepath="$PROJECT_DIR$/../../PHP/include/.idea/include.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/models.iml" filepath="$PROJECT_DIR$/.idea/models.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../.idea/phpoo.iml" filepath="$PROJECT_DIR$/../.idea/phpoo.iml" />
+    </modules>
+  </component>
+</project>

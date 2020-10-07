@@ -6,6 +6,9 @@ class Classe
     private $nom;
     private $capacite;
     private $professeurP;
+    # Comment affecter chaque élève dans une classe?
+    # -> rajout de l'éleve dans la classe
+    private $eleves;
 
     /**Pour permettre maintenant l'attributrion de valeurs à mes propriétés, je vais créer un constructeur.
     ----------------------------------------
@@ -13,11 +16,12 @@ class Classe
     ------------------------------------------
     Il est exécuté automatiquement par PHP au moment de l'instanciation de la classe.
      */
-    public function __construct($nom, $capacite, $professeurP) {
+    public function __construct($nom, $capacite, $professeurP, $eleves=[]) {
         $this->nom= $nom;
         $this->capacite= $capacite;
         $this->professeurP= $professeurP;
-
+        # -> rajout de l'éleve dans la classe
+        $this-> eleves = $eleves;
     }
     /* ---Getters-----*/
     public function getNom(){
@@ -28,8 +32,13 @@ class Classe
         return $this->capacite;
     }
 
-    public function getprofesseurP(){
+    public function getProfesseurP(){
         return $this->professeurP;
+    }
+
+    # -> rajout de l'éleve dans la classe
+    public function getEleves(){
+        return $this->eleves;
     }
 
     /* ---Setters-----*/
@@ -43,4 +52,14 @@ class Classe
     public function setprofesseurP($professeurP){
     $this->nom= $professeurP;
     }
-}
+
+    # -> rajout de l'éleve dans la classe
+    public function setEleves($eleves){
+        $this->eleves= $eleves;
+    }
+    public function addEleve(Eleve $eleve){
+        $this->eleves[]= $eleve;
+    }
+
+
+} //Fin de la classe Classe
