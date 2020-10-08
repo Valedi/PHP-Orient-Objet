@@ -2,9 +2,21 @@
 
 //Importation de nos class Ecole/ Classe/ et Eleve
 
-require_once 'models/Ecole.php';
-require_once 'models/Classe.php';
-require_once 'models/Eleve.php';
+#require_once 'models/Ecole.php';
+#require_once 'models/Classe.php';
+#require_once 'models/Eleve.php';
+
+/**spl_autoload_register permet de faire de l'autoloading de classes
+ * Plus besoin de faire de require à la main.
+ * ---------------------
+ * Elle est appelée AUTOMATIQUEMENT par PHP dés qu'on instancie une classe
+ */
+
+spl_autoload_register(function ( $class){
+   # echo 'Chargement de :' . $class . '<br>';
+    require_once 'models/'. $class . '.php';
+});
+
 
 /**
  * Création d'une instance de la class Ecole.
@@ -64,7 +76,7 @@ echo'<h1>' .$ecole->getNom() . '</h1>';
 
 /**___________________________________________________________________
  * Création d'une instance de la class Classe.
- Remarque, notre class classe à été importée la-haut
+ Remarque, notre class classe à été importée la-haut grace à l'autoload
  */
 $classe = new Classe('WF3','30','Hugo LIEGEARD'
 );
@@ -126,7 +138,7 @@ echo '</pre>';
 # Consignes:
 # En partant de l'Objet $ecole; affichez la liste ol, ul, li, des classes et pour chaques  classes, les étudiants
 
-#1. récuperer et afficher la liste des classes (=  tableau +boucle (while, ou foreach)
+#1. récuperer et afficher la liste des classes (=  tableau +boucle (while, for ou foreach)
 
 $classes =$ecole->getClasses();
 

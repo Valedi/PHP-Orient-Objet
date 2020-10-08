@@ -17,12 +17,14 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -33,7 +35,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602077535858</updated>
-      <workItem from="1602077537050" duration="6808000" />
+      <workItem from="1602077537050" duration="7270000" />
+      <workItem from="1602088839386" duration="7000" />
+      <workItem from="1602143909618" duration="21819000" />
     </task>
     <servers />
   </component>
@@ -41,9 +45,33 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="498" height="398" key="SwitcherDM" timestamp="1602077650975">
+    <state x="653" y="261" key="NewPhpClassDialog" timestamp="1602167103672">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="498" height="398" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1602077650975" />
+    <state x="653" y="261" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602167103672" />
+    <state x="861" y="593" key="NewPhpFileDialog" timestamp="1602164189730">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="861" y="593" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602164189730" />
+    <state x="920" y="297" key="SettingsEditor" timestamp="1602164285080">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="920" y="297" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602164285080" />
+    <state width="498" height="398" key="SwitcherDM" timestamp="1602152965941">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="498" height="398" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1602152965941" />
+    <state x="381" y="359" width="816" height="804" key="dock-window-1" timestamp="1602149286587">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="381" y="359" width="816" height="804" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1602149286587" />
+    <state x="0" y="269" width="620" height="804" key="dock-window-2" timestamp="1602152993014">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="269" width="620" height="804" key="dock-window-2/0.0.1920.1040@0.0.1920.1040" timestamp="1602152993014" />
+    <state x="87" y="318" width="620" height="804" key="dock-window-3" timestamp="1602153951512">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="87" y="318" width="620" height="804" key="dock-window-3/0.0.1920.1040@0.0.1920.1040" timestamp="1602153951512" />
   </component>
 </project>

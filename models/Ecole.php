@@ -75,7 +75,7 @@ class Ecole
         $this->nom= $directeur;
     }
 
-    # -> rajout de la classe dans la class ecole
+    # -> rajout des classes dans la class ecole
     public function setClasses($classes){
         $this->classes= $classes;
     }

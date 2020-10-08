@@ -5,11 +5,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="phpoo" />
-    <orderEntry type="module" module-name="COOKIE" />
-    <orderEntry type="module" module-name="EXERCICES TP1 2 3" />
-    <orderEntry type="module" module-name="GET page1_page2 ref" />
-    <orderEntry type="module" module-name="include" />
-    <orderEntry type="module" module-name="dialogue" />
-    <orderEntry type="module" module-name="boucle_image" />
+    <orderEntry type="module" module-name="mvc-poo" />
   </component>
 </module>
